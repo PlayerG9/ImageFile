@@ -3,6 +3,7 @@ temp/
 build/build/
 build/ImageFile/
 build/ImageFile.zip
+build/ImageFile-*-Setup.exe
 ImageFile/memory/database.sl3
 
 # PyCharm
