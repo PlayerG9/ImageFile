@@ -72,4 +72,7 @@ def get_language():
     langname = area.split('_')[0]
     print(f'{area=} {encoding=}')
     # pprint(locale.locale_alias)
-    return Language(langname, encoding)
+    try:
+        return Language(langname, encoding)
+    except FileNotFoundError:
+        return Language('en', 'utf-8')
