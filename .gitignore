@@ -3,7 +3,7 @@ temp/
 build/build/
 build/sources/setup.iss
 build/ImageFile/
-build/ImageFile.zip
+build/ImageFile-*.zip
 build/ImageFile-*-Setup.exe
 ImageFile/memory/database.sl3
 
