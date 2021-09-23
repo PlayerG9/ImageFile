@@ -1,0 +1,74 @@
+[__main__]
+search = Search
+preview = preview
+catched error = Catched Error
+quit = Quit
+settings = Settings
+stats = Statistics
+
+[searchframe\__init__]
+search = Search
+
+[searchframe\searchheader]
+text = Text
+simple expression = Simple Expression
+regular expression = Regular Expression
+search: = Search:
+name = Name
+time = Time
+size = Size
+
+[searchframe\filelist]
+type = Type
+file = File
+delete? = Delete?
+are you sure you want to delete these images? = Are you sure you want to delete these images?
+rename = Rename
+delete = Delete
+export = Export
+
+[previewframe\__init__]
+preview = Preview
+
+[searchframe\statsheader]
+{} of {} = {} of {}
+time: {}s = Time: {:.8f}s
+
+[previewframe\imagepreview]
+factor: 1:{} = Factor: 1:{}
+
+[frames\statisticsframe]
+databasesize: = Databasefilesize
+previewsize: = Previewsize
+total images: = Total Images
+total tags: = Total Tags
+
+[frames\settingframe]
+images = Images
+programm = Programm
+displaylimit: = Displaylimit:
+the maxixum of listed results = Limit of listed results
+autocleanup: = autocleanup
+automatically freeing of memory in the database = automatically freeing of memory in the database
+manuell cleanup = manuell cleanup
+zip-bomb test = Zip-Bomb test
+check if the imported file is a possible zip-bomp (> {} pixel) = Check if the imported file is a possible zip-bomp (> {:,} Pixel)
+no-image message = no-image message
+gives a warning if a file in the imported folder is not an image = Gives a warning if a file in the imported folder is not an image
+duplicate protection = duplicate protection
+does not import duplicate images = Does not import duplicate images
+memory freed = Memory freed
+
+[frames\exportframe]
+export - {} = Export - {}
+file: = File:
+export = Export
+file exported = File exported
+all files = All files
+save as confirm = Save as confirm
+file allready exists. do you want to continue? = File allready exists. do you want to continue
+
+[previewframe\imagestats]
+filesize: {} = Filesize: {}
+size: {}x{} = Size: {}x{}
+frames: {} = Frames: {}
