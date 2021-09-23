@@ -190,7 +190,7 @@ class TagEntry(tk.Frame):
         self.get_tags = lambda: tags
         super().destroy()
 
-    def get_tags(self) -> T.Tuple[str]:
+    def get_tags(self) -> T.List[str]:
         back = []
         for child in self.winfo_children():
             if child is self.entry: continue
@@ -267,6 +267,7 @@ class TagFilter(tk.Frame):
 
     def update_tags(self):
         connection = sql.connect(DATABASEPATH, detect_types=True)
+        # noinspection PyTypeChecker
         connection.create_aggregate('collect', 1, TagCollectAggregate)
         try:
             QUERY = r'SELECT COLLECT(tags) FROM images'
@@ -329,7 +330,7 @@ class TagCollectAggregate:
     def __init__(self):
         self.tags = set()
 
-    def step(self, value: str):
+    def step(self, value: bytes):
         for element in value.split(b'|'):
             self.tags.add(element)
 
