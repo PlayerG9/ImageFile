@@ -2,6 +2,7 @@
 temp/
 build/build/
 build/ImageFile/
+ImageFile/memory/database.sl3
 
 # PyCharm
 .idea/
