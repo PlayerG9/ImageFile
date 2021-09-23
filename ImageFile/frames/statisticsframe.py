@@ -63,10 +63,12 @@ class StatisticsFrame(tk.Frame):
     @staticmethod
     def total_tags():
         connection = sql.connect(DATABASEPATH)
+        # noinspection PyTypeChecker
         connection.create_aggregate('collect', 1, TagCollectAggregate)
         try:
             raw = connection.execute('SELECT COLLECT(tags) FROM images').fetchone()[0]
-
+            if not raw:
+                return 0
             return len(raw.split('|'))
         finally:
             connection.close()
