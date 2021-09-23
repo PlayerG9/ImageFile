@@ -2,6 +2,7 @@
 temp/
 build/build/
 build/ImageFile/
+build/ImageFile.zip
 ImageFile/memory/database.sl3
 
 # PyCharm
