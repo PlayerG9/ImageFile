@@ -1,0 +1,75 @@
+[__main__]
+search = Suche
+preview = Vorschau
+catched error = Abgefangener Fehler
+quit = Beenden
+settings = Einstellungen
+stats = Statistiken
+
+[searchframe\__init__]
+search = Suche
+
+[searchframe\searchheader]
+text = Text
+simple expression = Simple Expression
+regular expression = Regular Expression
+search: = Suche:
+name = Name
+time = Zeit
+size = Größe
+
+[searchframe\filelist]
+type = Typ
+file = Datei
+delete? = Löschen?
+are you sure you want to delete these images? = Bist du dir Sicher, dass du die Bilder löschen willst?
+rename = Umbenennen
+delete = Löschen
+export = Exportieren
+
+[previewframe\__init__]
+preview = Vorschau
+
+[searchframe\statsheader]
+{} of {} = {} von {}
+time: {}s = Zeit: {:.8f}s
+
+[previewframe\imagepreview]
+factor: 1:{} = Faktor: 1:{}
+
+[frames\statisticsframe]
+databasesize: = Dateigröße der Datenbank
+previewsize: = Größe der Previews
+total images: = Gesammtzahl der Bilder
+total tags: = Gesammtzahl an Tags
+
+[frames\settingframe]
+images = Bilder
+programm = Programm
+displaylimit: = Anzeigelimit
+the maxixum of listed results = Limit der gelisteten Ergebnisse
+autocleanup: = Automatisches Freigeben
+automatically freeing of memory in the database = Automatisches freigeben des Speichers in der Datenbank
+manuell cleanup = Manuelles Freigeben
+zip-bomb test = Zip-Bomb Test
+check if the imported file is a possible zip-bomp (> {} pixel) = Testet, ob das importierte Bild eine mögliche Zip-Bombe ist (> {:,} Pixel)
+no-image message = Kein-Bild Nachricht
+gives a warning if a file in the imported folder is not an image = Warnt, wenn eine Datei im importierten Ordner kein Bild ist
+duplicate protection = Duplikatschutz
+does not import duplicate images = Importiert keine doppelten Bilder
+memory freed = Speicher freigegeben
+
+[frames\exportframe]
+export - {} = Exportiere - {}
+file: = Datei:
+export = Exportieren
+file exported = Datei Exportiert
+all files = Alle Dateien
+save as confirm = Speichern unter bestätigen
+file allready exists. do you want to continue? = Die Datei existiert bereits. Möchten Sie sie überschreiben?
+
+[previewframe\imagestats]
+filesize: {} = Dateigröße: {}
+size: {}x{} = Größe: {}x{}
+frames: {} = Frames: {}
+

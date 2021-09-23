@@ -1,0 +1,26 @@
+{
+  "configure": {
+    "": {
+      "background": "#222831",
+      "highlightbackground": "#393E46",
+      "activebackground": "#393E46",
+      "foreground": "#00ADB5",
+      "highlightcolor": "#00FFF5",
+      "activeforeground": "#00FFF5",
+      "insertbackground": "#00ADB5"
+    },
+    "Checkbutton": {
+      "activebackground": "#222831",
+      "selectcolor": "#222831"
+    }
+  },
+  "style": {
+    "Treeview": {
+      "configure": {
+        "background": "#222831",
+        "foreground": "#00ADB5",
+        "fieldbackground": "#222831"
+      }
+    }
+  }
+}

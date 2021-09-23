@@ -1,0 +1,16 @@
+{
+  "configure": {
+    "": {
+      "background": "#eee",
+      "highlightbackground": "#fff",
+      "activebackground": "#fff",
+      "foreground": "#111",
+      "highlightcolor": "#222",
+      "activeforeground": "#222",
+      "insertbackground": "#111"
+    }
+  },
+  "style": {
+
+  }
+}
