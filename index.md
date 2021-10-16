@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# <img width=auto height="30" src="https://raw.githubusercontent.com/PlayerG9/Imagefile/master/README.assets/logo.png" alt="Imagefile"> ImageFile
+ app to store and search many images quickly
 
-You can use the [editor on GitHub](https://github.com/PlayerG9/ImageFile/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![app_preview](https://raw.githubusercontent.com/PlayerG9/ImageFile/master/README.assets/app_preview_1.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+start the programm. simply drag'n'drop images or directory into the image-list, and they get imported
+filter by name or type and sort by date them size
 
-### Markdown
+## many supported image-types
+- .bmp
+- .ps
+- .gif
+- .h5
+- .png
+- .apng
+- .ico
+- .tif
+- .tiff
+- .jfif
+- .jpe
+- .jpg
+- .jpeg
+- .mpg
+- .mpeg
+- .pdf
+- .rgb
+- .rgba
+- .webp
+- .xbm
+- .xpm  
+... and many (60+) more
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PlayerG9/ImageFile/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## comming soon
+- auto-search x ms after keyrelease
+- search by image
+- search by size
