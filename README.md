@@ -4,7 +4,7 @@
 ![app_preview](https://raw.githubusercontent.com/PlayerG9/ImageFile/master/README.assets/app_preview_1.png)
 
 start the programm. simply drag'n'drop images or directory into the image-list, and they get imported
-filter by name or type and sort by date them size
+filter by name or type and sort them by date or size
 
 ## many supported image-types
 - .bmp
