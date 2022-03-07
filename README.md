@@ -1,4 +1,4 @@
-# <img width=auto height="30" src="https://raw.githubusercontent.com/PlayerG9/Imagefile/master/README.assets/logo.png" alt="Imagefile"> ImageFile
+# <img width=auto height="30" src="https://raw.githubusercontent.com/PlayerG9/Imagefile/master/README.assets/logo.png" alt="" /> ImageFile
  app to store and search many images quickly
 
 ![app_preview](https://raw.githubusercontent.com/PlayerG9/ImageFile/master/README.assets/app_preview_1.png)
